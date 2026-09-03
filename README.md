@@ -184,7 +184,7 @@ accepts_insurance
 
 teleconsult_enabled
 
-🔗 Data Preparation
+**🔗Data Preparation**
 
 The appointment fact table and doctor dimension table are joined using:
 
@@ -210,7 +210,7 @@ appointments where appropriate for outcome/no-show analysis.
 Creating a completed appointment dataset for financial and
 service-quality analysis.
 
-📊 Analysis Performed
+**📊Analysis Performed**
 
 Section 1 --- Appointment Overview
 
@@ -236,7 +236,7 @@ Q3. Booking Channel Mix
 Identifies which booking channels generate the highest appointment
 volume and examines the overall channel mix.
 
-Section 2 --- No-Show Analysis
+**Section 2 --- No-Show Analysis**
 
 Q1. Specialty and City No-Show Rates
 
@@ -257,7 +257,7 @@ Q4. Appointment Type and Booking Channel Risk
 Compares no-show risk across different appointment types and booking
 channels.
 
-Section 3 --- Reminder & Engagement Effectiveness
+**Section 3 --- Reminder & Engagement Effectiveness**
 
 Q1. Reminder Effectiveness
 
@@ -277,7 +277,7 @@ Apollo members and non-members
 
 Repeat patients and first-time patients
 
-Section 4 --- Patient & Demographic Segmentation
+**Section 4 --- Patient & Demographic Segmentation**
 
 Q1. Demographic Factors
 
@@ -304,7 +304,7 @@ Gynaecology
 
 Psychiatry
 
-Section 5 --- Financial Performance
+**Section 5 --- Financial Performance**
 
 Q1. Revenue Lost to No-Shows
 
@@ -326,7 +326,7 @@ Q4. Insurance & Out-of-Pocket Cost
 Compares average patient out-of-pocket expenses based on insurance
 coverage.
 
-Section 6 --- Doctor Utilization & Service Quality
+**Section 6 --- Doctor Utilization & Service Quality**
 
 Q1. Doctor Utilization
 
@@ -346,7 +346,7 @@ Q4. Doctor Experience & Consultation Fee
 
 Explores how consultation fees vary with doctor experience.
 
-🔎 Key Findings
+**🔎 Key Findings**
 
 The analysis produced the following major findings from the 75,000 appointment records:
 
@@ -434,7 +434,7 @@ Average waiting time was 11.55 minutes across Morning, Afternoon, and Evening in
 
 The correlation between consultation duration and patient satisfaction was -0.0035, indicating virtually no linear relationship in this dataset.
 
-💡 Business Recommendations
+**💡 Business Recommendations**
 
 Based on the analytical findings, the following actions could help improve appointment operations and patient engagement:
 
@@ -458,7 +458,7 @@ Do not rely on consultation duration alone for satisfaction: Since the observed 
 
 Note: These recommendations are analytical interpretations of the results in this notebook and should be validated with operational context before implementation.
 
-🛠️ Technologies & Libraries
+**🛠️ Technologies & Libraries**
 
 Python
 
@@ -503,7 +503,7 @@ Jupyter Notebook
 Used as the main environment for executing the analysis and documenting
 the workflow.
 
-📈 Key Analytical Techniques
+**📈 Key Analytical Techniques**
 
 The project uses:
 
@@ -535,7 +535,7 @@ Comparative analysis
 
 Data visualization
 
-📁 Repository Structure
+**📁 Repository Structure**
 
 Apollo-Healthcare-Appointment-Analytics/
 │
@@ -569,7 +569,7 @@ Where doctor capacity is highly or less utilized.
 How waiting time and consultation characteristics relate to service
 quality.
 
-🚀 How to Run the Project
+**🚀 How to Run the Project**
 
 1. Clone the repository
 
